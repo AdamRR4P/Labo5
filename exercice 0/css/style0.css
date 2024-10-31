@@ -1,0 +1,41 @@
+.conteneur {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+.un{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 40px 40px
+}
+
+.deux {
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 40px 40px 40px;
+}
+
+.trois{
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 60px 30px 30px;
+    gap: 5px;
+
+}
+.cellule {        
+    align-self: auto;
+    justify-self: auto;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.rouge {
+    background-color: lightcoral;
+}
+
+.vert {
+    background-color: cyan;
+}
